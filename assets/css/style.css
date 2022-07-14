@@ -62,10 +62,16 @@ h1, h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    
+    position: relative;
+}
+
+#cover-text, #cover-text h2 {
+    color: #fff;
 }
 
 #hero-image {
-    height: 600px;
+    height: 500px;
     width: 100%;
     background: url('../css/images/hero-image.webp') no-repeat center center;
 
@@ -86,4 +92,24 @@ animation-fill-mode: forwards;
     to {
         transform: scale(1.1);
     }
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 200px;
+    height: 300px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(241, 109, 107 .7);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
 }
