@@ -190,3 +190,29 @@ hr {
     height: 100%;
     border-radius: 50%;
 }
+
+/* event times image */
+
+#times-image {
+    background-image: url('../css/images/dublin-city.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#times-image div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    width: 20%;
+    height: 300px;
+    float: left;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+#times-image h2 {
+    color: #fafafa;
+}
