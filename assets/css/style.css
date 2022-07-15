@@ -325,4 +325,16 @@ column-gap: 0;
     text-align: center;
     padding: 20px;
  }
+
+ #photos {
+    column-count: 3;
+ }
+}
+
+/* for small screens 800px wide and down*/
+
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
 }
