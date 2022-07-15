@@ -294,4 +294,28 @@ column-gap: 0;
     margin-bottom: 20px;
     line-height: 25px;
  }
+
+ #cover-text {
+    left: 0;
+ }
+
+ #club-ethos {
+    width: 90%;
+    height: 1200px;
+    margin: 0 auto;
+ }
+
+ .left-text, .right-text {
+    width: inherit;
+ }
+
+ .left-text h2, .right-text h2 {
+    width: 100%;
+    text-align: center;
+ }
+
+ .left-text p, .right-text p {
+    text-align: center;
+    padding: 20px;
+ }
 }
